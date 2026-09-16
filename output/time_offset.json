@@ -1,0 +1,19 @@
+{
+  "gps_epoch_unix": 315964800.0,
+  "leap_seconds": 18.0,
+  "local_utc_offset_h": 8.0,
+  "sensor_t0_app": 820606.2019999999,
+  "app_t0_unix": 1764033593.2267752,
+  "slope": 1.0000016397082498,
+  "intercept": 1764033593.2267752,
+  "r2": 0.999999989014145,
+  "n_fit": 747,
+  "fit_sources": "gnss",
+  "imu_t0_unix": 1764033593.2787752,
+  "imu_t1_unix": 1764034340.0809999,
+  "rtk_t0_unix": 1764033596.8,
+  "rtk_t1_unix": 1764038720.4,
+  "offset_start_s": -3.5212247371673584,
+  "overlap_s": 743.2809998989105,
+  "_说明": "统一基准: t_unix=Unix秒(UTC); IMU App时间->t_unix: t_unix=slope*AppTimestamp_s+intercept; RTK: t_unix=GPS_EPOCH_UNIX+Week*604800+GPSTime_s-leap_seconds"
+}
